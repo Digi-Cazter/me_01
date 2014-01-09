@@ -1324,10 +1324,10 @@
 		86BC836216518FE800D96ADF /* types.gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.gcc.h; sourceTree = "<group>"; };
 		86BC836316518FE800D96ADF /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		86BC836416518FE800D96ADF /* types.ppc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.ppc.h; sourceTree = "<group>"; };
-		86C281C716A4306900F030F4 /* Torque2D-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Torque2D-Info.plist"; path = "Torque2D/Torque2D-Info.plist"; sourceTree = SOURCE_ROOT; };
+		86C281C716A4306900F030F4 /* me_01-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "me_01-Info.plist"; path = "Torque2D/me_01-Info.plist"; sourceTree = SOURCE_ROOT; };
 		86C281C916A4307300F030F4 /* Torque2DGame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Torque2DGame-Info.plist"; path = "Torque2D/Torque2DGame-Info.plist"; sourceTree = SOURCE_ROOT; };
 		86C281CC16A4307E00F030F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Torque2D/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
-		86C281CF16A4309800F030F4 /* Torque2D-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Torque2D-Prefix.pch"; path = "Torque2D/Torque2D-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		86C281CF16A4309800F030F4 /* me_01-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "me_01-Prefix.pch"; path = "Torque2D/me_01-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		86CEFC76166FE17500DAF75D /* platformInput_ScriptBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platformInput_ScriptBinding.h; sourceTree = "<group>"; };
 		86D76F74165682BF0046D71F /* platformGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platformGL.h; sourceTree = "<group>"; };
 		86D76F76165683240046D71F /* osxOutlineGL.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = osxOutlineGL.cc; sourceTree = "<group>"; };
@@ -1811,9 +1811,9 @@
 		869FF8C31651518C002FE082 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				86C281CF16A4309800F030F4 /* Torque2D-Prefix.pch */,
+				86C281CF16A4309800F030F4 /* me_01-Prefix.pch */,
 				86C281CB16A4307E00F030F4 /* MainMenu.xib */,
-				86C281C716A4306900F030F4 /* Torque2D-Info.plist */,
+				86C281C716A4306900F030F4 /* me_01-Info.plist */,
 				86C281C916A4307300F030F4 /* Torque2DGame-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -2806,9 +2806,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		869FF8B71651518C002FE082 /* Torque2D */ = {
+		869FF8B71651518C002FE082 /* me_01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 869FF8D61651518C002FE082 /* Build configuration list for PBXNativeTarget "Torque2D" */;
+			buildConfigurationList = 869FF8D61651518C002FE082 /* Build configuration list for PBXNativeTarget "me_01" */;
 			buildPhases = (
 				869FF8B61651518C002FE082 /* Resources */,
 				869FF8B41651518C002FE082 /* Sources */,
@@ -2818,7 +2818,7 @@
 			);
 			dependencies = (
 			);
-			name = Torque2D;
+			name = me_01;
 			productName = Torque2D;
 			productReference = 869FF8B81651518C002FE082 /* Torque2D_DEBUG.app */;
 			productType = "com.apple.product-type.application";
@@ -2832,7 +2832,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Michael Perry";
 			};
-			buildConfigurationList = 869FF8B21651518C002FE082 /* Build configuration list for PBXProject "Torque2D" */;
+			buildConfigurationList = 869FF8B21651518C002FE082 /* Build configuration list for PBXProject "me_01" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2844,7 +2844,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				869FF8B71651518C002FE082 /* Torque2D */,
+				869FF8B71651518C002FE082 /* me_01 */,
 			);
 		};
 /* End PBXProject section */
@@ -3346,7 +3346,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = ../../..;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Torque2D/Torque2D-Prefix.pch";
+				GCC_PREFIX_HEADER = "Torque2D/me_01-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TORQUE_OS_OSX,
 					"$(inherited)",
@@ -3363,11 +3363,11 @@
 					../../source/testing/googleTest,
 					../../source/testing/googleTest/include,
 				);
-				INFOPLIST_FILE = "Torque2D/Torque2D-Info.plist";
+				INFOPLIST_FILE = "Torque2D/me_01-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = /usr/lib/libz.dylib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = me_01;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Shipping;
@@ -3442,7 +3442,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = ../../..;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Torque2D/Torque2D-Prefix.pch";
+				GCC_PREFIX_HEADER = "Torque2D/me_01-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TORQUE_OS_OSX,
 					"$(inherited)",
@@ -3459,11 +3459,11 @@
 					../../source/testing/googleTest,
 					../../source/testing/googleTest/include,
 				);
-				INFOPLIST_FILE = "Torque2D/Torque2D-Info.plist";
+				INFOPLIST_FILE = "Torque2D/me_01-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = /usr/lib/libz.dylib;
-				PRODUCT_NAME = "$(TARGET_NAME)_DEBUG";
+				PRODUCT_NAME = me_01_DEBUG;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3475,7 +3475,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = ../../..;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Torque2D/Torque2D-Prefix.pch";
+				GCC_PREFIX_HEADER = "Torque2D/me_01-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TORQUE_OS_OSX,
 					"$(inherited)",
@@ -3492,11 +3492,11 @@
 					../../source/testing/googleTest,
 					../../source/testing/googleTest/include,
 				);
-				INFOPLIST_FILE = "Torque2D/Torque2D-Info.plist";
+				INFOPLIST_FILE = "Torque2D/me_01-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = /usr/lib/libz.dylib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = me_01;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3504,7 +3504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		869FF8B21651518C002FE082 /* Build configuration list for PBXProject "Torque2D" */ = {
+		869FF8B21651518C002FE082 /* Build configuration list for PBXProject "me_01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				869FF8D41651518C002FE082 /* Debug */,
@@ -3514,7 +3514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		869FF8D61651518C002FE082 /* Build configuration list for PBXNativeTarget "Torque2D" */ = {
+		869FF8D61651518C002FE082 /* Build configuration list for PBXNativeTarget "me_01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				869FF8D71651518C002FE082 /* Debug */,
